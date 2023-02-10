@@ -1,6 +1,6 @@
 # Projeto para estudos e revisão de conceitos nos fundamentos em CSharp
 
-Passos projetar uma nova solução seguindo Orientação a Objetos:
+Passos para projetar uma nova solução seguindo a Orientação a Objetos:
 
 PARTE 1 - Estrutura inicial
 
@@ -40,7 +40,6 @@ Ex: Nível (baixo, médio, alto, muito alto)
  "get", e retorna apenas uma linha.
 Ex: public int QtdTotalDeCursosNaCarreira => Items.Count
 
-
 PARTE 3 - Melhoria contínua
 
 1. Utilize os construtores a favor, preenchendo as informações basicas ao criar objetos.
@@ -48,4 +47,3 @@ PARTE 3 - Melhoria contínua
 2. Evite redundância, herde as propriedades das classes pai, passando parametros com a instrução base.
 
 3. Trate as exceções, mas evite o encerramento do programa em caso de falha. Crie um Contexto de Notificação.
-
