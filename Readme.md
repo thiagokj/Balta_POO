@@ -28,7 +28,10 @@ PARTE 2 - Modelagem
  com um tipo complexo.
  Ex: 1 Curso possui muitos Módulos. Posso criar uma lista
 para guardar as informações de cada módulo.
+
+```csharp
  public IList<Modulo> Modulos {get; set;}
+```
 
 4. Utilize o método construtor para inicializar as propriedades,
  evitando problemas com exceção de valores nulos.
@@ -37,8 +40,11 @@ para guardar as informações de cada módulo.
 Ex: Nível (baixo, médio, alto, muito alto)
 
 6. Crie um expression body quando uma propriedade só utiliza o método
- "get", e retorna apenas uma linha.
-Ex: public int QtdTotalDeCursosNaCarreira => Items.Count
+ "get", e retorna apenas uma linha. Ex:
+
+ ```csharp
+ public int QtdTotalDeCursosNaCarreira => Items.Count
+ ```
 
 PARTE 3 - Melhoria contínua
 
